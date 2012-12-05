@@ -38,6 +38,15 @@ to install by *vundle* like followings:
 >
 > Bundle 'datsuns/vim-metarw-irof'
 
+### twitvim setting
+
+twitvim need initial setting by command.
+
+> :SetLoginTwitter
+
+then, output a shortenend url to authenticate with twitter.
+accsess to the url and enter PIN code.
+
 ## command
 
 1st edit *irof:*
