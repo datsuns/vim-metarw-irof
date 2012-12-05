@@ -1,5 +1,5 @@
 let s:his_name = 'irof'
-let s:to_be_irof_prefix = 'ろふ'
+let s:suffix_to_be_irof = 'ろふ'
 let s:his_main_AA = [ 
       \'  ______  ',
       \' / .... \ ',
@@ -19,6 +19,6 @@ endfunction
 
 function! metarw#irof#write(fakepath, line1, line2, append_p)
   execute ':normal $'
-  execute ':normal a' . s:to_be_irof_prefix
+  execute ':normal a' . s:suffix_to_be_irof
   execute 'CPosttoTwitter'
 endfunction
