@@ -33,7 +33,9 @@ use vim plugin manager such as [vundle](git://github.com/gmarik/vundle.git).
 to install by *vundle* like followings:
 
 > Bundle 'TwitVim'
+>
 > Bundle 'kana/vim-metarw'
+>
 > Bundle 'datsuns/vim-metarw-irof'
 
 ## command
@@ -44,10 +46,12 @@ to install by *vundle* like followings:
 
 last charactar ":" must be specified.
 
-then, vim window will be divided int upper and lower.
+then, vim window will be divided into upper and lower.
 
 next, type any sentence to lower window, and *write*
 
 > :w
+
+last, a special tweet will be posted !!
 
 
