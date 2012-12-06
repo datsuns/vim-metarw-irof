@@ -1,0 +1,61 @@
+*irof.txt*		a joke vim script for irof advent calender
+
+Version 0.0.1
+License: MIT license  {{{
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+}}}
+
+
+CONTENTS					*irof-contents*
+
+Introduction		|irof-introduction|
+What is			|irof-what-is|
+Install			|irof-install|
+
+=========================================================================
+INTRODUCTION					*irof-introduction*
+
+this is a joke vim script for irof advent calendar.
+
+see below:
+
+http://atnd.org/events/34079
+
+=====================================================================
+WHAT IS						*irof-what-is*
+
+this script has some functions like followings:
+
+1. search *irof* on twitter, but *irof only*
+2. post any sentence to twitter with prefix "ろふ" automatically
+
+
+=========================================================================
+INSTALL						*irof-install*
+
+this script depends on:
+
+1. twitvim
+    http://vim.sourceforge.net/scripts/script.php?script_id=2204
+
+2. kana/metarw
+    https://github.com/kana/vim-metarw
+
+
