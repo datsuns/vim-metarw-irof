@@ -13,6 +13,7 @@ function! metarw#irof#complete(arglead, cmdline, cursorpos)
 endfunction
 
 function! metarw#irof#read(fakepath)
+  let g:twitvim_count = 200
   execute 'SearchTwitter ' . s:his_name
   call append( line('.'), s:his_main_AA )
 endfunction
