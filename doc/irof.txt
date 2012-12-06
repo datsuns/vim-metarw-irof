@@ -28,6 +28,9 @@ CONTENTS					*irof-contents*
 Introduction		|irof-introduction|
 What is			|irof-what-is|
 Install			|irof-install|
+  Easy Install		|irof-easy-install|
+  twitvim Setting	|irof-twitvim-setting|
+Commands		|irof-command|
 
 =========================================================================
 INTRODUCTION					*irof-introduction*
@@ -50,12 +53,55 @@ this script has some functions like followings:
 =========================================================================
 INSTALL						*irof-install*
 
-this script depends on:
+this script depends on some plugins.
 
 1. twitvim
     http://vim.sourceforge.net/scripts/script.php?script_id=2204
 
 2. kana/metarw
     https://github.com/kana/vim-metarw
+
+please install them first.
+
+------------------------------------------------------------------------
+EASY INSTALL					*irof-easy-install*
+
+use vim plugin manager such as vundle (git://github.com/gmarik/vundle.git).
+
+to install by *vundle* like followings:
+
+> Bundle 'TwitVim'
+>
+> Bundle 'kana/vim-metarw'
+>
+> Bundle 'datsuns/vim-metarw-irof'
+
+------------------------------------------------------------------------
+twitvim SETTING					*irof-twitvim-setting*
+
+twitvim need initial setting by command.
+
+	:SetLoginTwitter
+
+then, output a shortenend url to authenticate with twitter.
+accsess to the url and enter PIN code.
+
+
+========================================================================
+COMMANDS					*irof-commands*
+
+1st edit *irof:*
+
+	:e irof:
+
+last charactar ":" must be specified.
+
+then, vim window will be divided into upper and lower.
+
+next, type any sentence to lower window, and *write*
+
+	:w
+
+last, a special tweet will be posted !!
 
 
