@@ -1,6 +1,7 @@
 *irof.txt*		a joke vim script for irof advent calender
 
 Version 0.0.1
+
 License: MIT license  {{{
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
@@ -31,6 +32,7 @@ Install			|irof-install|
   Easy Install		|irof-easy-install|
   twitvim Setting	|irof-twitvim-setting|
 Commands		|irof-command|
+Special Thanks		|irof-special-thanks|
 
 =========================================================================
 INTRODUCTION					*irof-introduction*
@@ -41,13 +43,13 @@ see below:
 
 http://atnd.org/events/34079
 
-=====================================================================
+========================================================================
 WHAT IS						*irof-what-is*
 
 this script has some functions like followings:
 
-1. search *irof* on twitter, but *irof only*
-2. post any sentence to twitter with prefix "ろふ" automatically
+1. search *irof* on twitter, but *irof* *only*
+2. post any sentence to twitter with prefix <ろふ> automatically
 
 
 =========================================================================
@@ -63,45 +65,54 @@ this script depends on some plugins.
 
 please install them first.
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------------
 EASY INSTALL					*irof-easy-install*
 
-use vim plugin manager such as vundle (git://github.com/gmarik/vundle.git).
+if u use vim plugin manager such as vundle (https://github.com/gmarik/vundle)
 
-to install by *vundle* like followings:
+to install by *vundle* like followings: >
 
-> Bundle 'TwitVim'
->
-> Bundle 'kana/vim-metarw'
->
-> Bundle 'datsuns/vim-metarw-irof'
+    :Bundle 'TwitVim'
+    :Bundle 'kana/vim-metarw'
+    :Bundle 'datsuns/vim-metarw-irof'
 
-------------------------------------------------------------------------
-twitvim SETTING					*irof-twitvim-setting*
+-------------------------------------------------------------------------
+SETTING FOR TWITVIM				*irof-twitvim-setting*
 
-twitvim need initial setting by command.
+twitvim needs initial setup by command. >
 
 	:SetLoginTwitter
 
-then, output a shortenend url to authenticate with twitter.
-accsess to the url and enter PIN code.
+then, output a shortenend URL to authenticate with twitter.
+accsess to the URL and enter PIN code to twitvim.
+(twitvim supports other way to setup, off cource u can use them.)
 
 
-========================================================================
+=========================================================================
 COMMANDS					*irof-commands*
 
-1st edit *irof:*
+1st edit *irof:*  >
 
 	:e irof:
 
-last charactar ":" must be specified.
 
+last charactar *:* must be specified. (metarw specific)
 then, vim window will be divided into upper and lower.
+and cursor will be located at lower buffer named *irof*
 
-next, type any sentence to lower window, and *write*
+next, type any sentence to lower window, and do *write*  >
 
 	:w
 
-last, a special tweet will be posted !!
+after *write* , text of current cursor line will be posted
+to twitter. please check it !!
+
+Have fun with twitter !!!
+
+
+=========================================================================
+SPECIAL THANKS					*irof-special-thanks*
+
+many many thanks to irof !!!
 
 
