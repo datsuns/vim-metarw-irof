@@ -68,7 +68,8 @@ please install them first.
 -------------------------------------------------------------------------
 EASY INSTALL					*irof-easy-install*
 
-if u use vim plugin manager such as vundle (https://github.com/gmarik/vundle)
+if u use vim plugin manager such as vundle 
+  https://github.com/gmarik/vundle
 
 to install by *vundle* like followings: >
 
