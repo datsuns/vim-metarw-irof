@@ -14,7 +14,7 @@ endfunction
 
 function! metarw#irof#read(fakepath)
   let g:twitvim_count = 200
-  execute 'SearchTwitter ' . s:his_name
+  execute 'SearchTwitter ' . s:his_name . ' OR ' . s:suffix_to_be_irof
   call append( line('.'), s:his_main_AA )
 endfunction
 

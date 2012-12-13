@@ -48,7 +48,7 @@ WHAT IS						*irof-what-is*
 
 this script has some functions like followings:
 
-1. search *irof* on twitter, but *irof* *only*
+1. search *irof* or "ろふ"  on twitter
 2. post any sentence to twitter with suffix <ろふ> automatically
 
 
@@ -69,7 +69,7 @@ please install them first.
 EASY INSTALL					*irof-easy-install*
 
 if u use vim plugin manager such as vundle 
-  https://github.com/gmarik/vundle
+	https://github.com/gmarik/vundle
 
 to install by *vundle* like followings: >
 
