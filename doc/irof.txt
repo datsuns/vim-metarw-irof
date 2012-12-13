@@ -49,7 +49,7 @@ WHAT IS						*irof-what-is*
 this script has some functions like followings:
 
 1. search *irof* on twitter, but *irof* *only*
-2. post any sentence to twitter with prefix <ろふ> automatically
+2. post any sentence to twitter with suffix <ろふ> automatically
 
 
 =========================================================================
